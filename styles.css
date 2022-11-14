@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+.header-left{
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 25px;
+    padding: 0;
+}
+.header-right{
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+
+    margin: 25px;
+    padding: 0;
+    gap: 8px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
