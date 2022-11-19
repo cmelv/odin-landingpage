@@ -27,11 +27,18 @@
     margin-bottom: 25px;
     margin-right: 80px;
     padding: 5;
-    gap: 8px;
+    gap: 20px;
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.logo img{
+    background-color: #1F2937;
+    
+    width: 50px;
+    height: 50px;
 }
 
 .hero{
@@ -40,7 +47,7 @@ a{
     /*flex-wrap: wrap;*/
     justify-content: space-between;
     background-color: #1f2937;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .hero-left{
@@ -139,12 +146,19 @@ content: close-quote;
     padding-top: 25px;
 }
 
+.cta-container{
+    display: flex;
+    justify-content: center;
+}
+
 .calltoaction{
     display: flex;
+    
     background-color: #3882F6;
     padding: 60px 100px;
     margin: 80px;
     justify-content: space-between;
+    width:50%;
     
     border-radius: 10px;
 }
@@ -158,6 +172,7 @@ content: close-quote;
 }
 .cta-header{
     font-size: 28px;
+    font-weight: bold;
 
 }
 
@@ -169,7 +184,7 @@ content: close-quote;
 }
 .cta-para{
 
-    font-size: 12px;
+    font-size: 16px;
 }
 .cta-btn{
     color: white;
@@ -178,6 +193,7 @@ content: close-quote;
     border-radius: 5px;
     padding: 5px 25px;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .footer{
