@@ -138,3 +138,53 @@ content: close-quote;
     font-size: 28px;
     padding-top: 25px;
 }
+
+.calltoaction{
+    display: flex;
+    background-color: #3882F6;
+    padding: 60px 100px;
+    margin: 80px;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+}
+.cta-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    
+
+}
+.cta-header{
+    font-size: 28px;
+
+}
+
+.cta-right{
+    display: flex;
+    justify-content: center;
+ 
+
+}
+.cta-para{
+
+    font-size: 12px;
+}
+.cta-btn{
+    color: white;
+    background-color: #3882F6;
+    border: solid 2px #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 28px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
